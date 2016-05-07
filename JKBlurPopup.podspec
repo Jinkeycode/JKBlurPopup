@@ -2,9 +2,6 @@ Pod::Spec.new do |s|
   s.name             = "JKBlurPopup"  
   s.version          = "1.0.0"  
   s.summary          = "Create a popupview with blur background，using swift"  
-  s.description      = <<-DESC  
-                       Create a popupview with blur background, which implement by Swift.  
-                       DESC  
   s.homepage         = "https://github.com/Jinkeycode/JKBlurPopup"  
   # s.screenshots      = "https://github.com/Jinkeycode/JKBlurPopup/blob/master/JKBlurPopup.gif"  
   s.license          = 'MIT'  
@@ -25,4 +22,4 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Classes/**/*.h'  
   s.frameworks = 'Foundation', 'CoreGraphics', 'UIKit'  
   
-end 
+end
