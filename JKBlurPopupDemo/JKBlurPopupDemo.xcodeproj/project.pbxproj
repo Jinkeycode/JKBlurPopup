@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		499F92301CDD9F7000AEC726 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499F922F1CDD9F7000AEC726 /* AppDelegate.swift */; };
+		499F92321CDD9F7000AEC726 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499F92311CDD9F7000AEC726 /* ViewController.swift */; };
+		499F92351CDD9F7000AEC726 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 499F92331CDD9F7000AEC726 /* Main.storyboard */; };
+		499F92371CDD9F7000AEC726 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 499F92361CDD9F7000AEC726 /* Assets.xcassets */; };
+		499F923A1CDD9F7000AEC726 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 499F92381CDD9F7000AEC726 /* LaunchScreen.storyboard */; };
+		499F92451CDD9F7100AEC726 /* JKBlurPopupDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499F92441CDD9F7100AEC726 /* JKBlurPopupDemoTests.swift */; };
+		499F92501CDD9F7100AEC726 /* JKBlurPopupDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499F924F1CDD9F7100AEC726 /* JKBlurPopupDemoUITests.swift */; };
+		499F925F1CDD9FFE00AEC726 /* JKBlurPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499F925D1CDD9FFE00AEC726 /* JKBlurPopup.swift */; };
+		499F92601CDD9FFE00AEC726 /* ExampleJKBlurPopup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499F925E1CDD9FFE00AEC726 /* ExampleJKBlurPopup.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		499F92411CDD9F7000AEC726 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 499F92241CDD9F7000AEC726 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 499F922B1CDD9F7000AEC726;
+			remoteInfo = JKBlurPopupDemo;
+		};
+		499F924C1CDD9F7100AEC726 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 499F92241CDD9F7000AEC726 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 499F922B1CDD9F7000AEC726;
+			remoteInfo = JKBlurPopupDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		499F922C1CDD9F7000AEC726 /* JKBlurPopupDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKBlurPopupDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		499F922F1CDD9F7000AEC726 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		499F92311CDD9F7000AEC726 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		499F92341CDD9F7000AEC726 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		499F92361CDD9F7000AEC726 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		499F92391CDD9F7000AEC726 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		499F923B1CDD9F7000AEC726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		499F92401CDD9F7000AEC726 /* JKBlurPopupDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKBlurPopupDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		499F92441CDD9F7100AEC726 /* JKBlurPopupDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKBlurPopupDemoTests.swift; sourceTree = "<group>"; };
+		499F92461CDD9F7100AEC726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		499F924B1CDD9F7100AEC726 /* JKBlurPopupDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKBlurPopupDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		499F924F1CDD9F7100AEC726 /* JKBlurPopupDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKBlurPopupDemoUITests.swift; sourceTree = "<group>"; };
+		499F92511CDD9F7100AEC726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		499F925D1CDD9FFE00AEC726 /* JKBlurPopup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JKBlurPopup.swift; sourceTree = "<group>"; };
+		499F925E1CDD9FFE00AEC726 /* ExampleJKBlurPopup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleJKBlurPopup.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		499F92291CDD9F7000AEC726 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499F923D1CDD9F7000AEC726 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499F92481CDD9F7100AEC726 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		499F92231CDD9F7000AEC726 = {
+			isa = PBXGroup;
+			children = (
+				499F922E1CDD9F7000AEC726 /* JKBlurPopupDemo */,
+				499F92431CDD9F7000AEC726 /* JKBlurPopupDemoTests */,
+				499F924E1CDD9F7100AEC726 /* JKBlurPopupDemoUITests */,
+				499F922D1CDD9F7000AEC726 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		499F922D1CDD9F7000AEC726 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				499F922C1CDD9F7000AEC726 /* JKBlurPopupDemo.app */,
+				499F92401CDD9F7000AEC726 /* JKBlurPopupDemoTests.xctest */,
+				499F924B1CDD9F7100AEC726 /* JKBlurPopupDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		499F922E1CDD9F7000AEC726 /* JKBlurPopupDemo */ = {
+			isa = PBXGroup;
+			children = (
+				499F925D1CDD9FFE00AEC726 /* JKBlurPopup.swift */,
+				499F925E1CDD9FFE00AEC726 /* ExampleJKBlurPopup.swift */,
+				499F922F1CDD9F7000AEC726 /* AppDelegate.swift */,
+				499F92311CDD9F7000AEC726 /* ViewController.swift */,
+				499F92331CDD9F7000AEC726 /* Main.storyboard */,
+				499F92361CDD9F7000AEC726 /* Assets.xcassets */,
+				499F92381CDD9F7000AEC726 /* LaunchScreen.storyboard */,
+				499F923B1CDD9F7000AEC726 /* Info.plist */,
+			);
+			path = JKBlurPopupDemo;
+			sourceTree = "<group>";
+		};
+		499F92431CDD9F7000AEC726 /* JKBlurPopupDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				499F92441CDD9F7100AEC726 /* JKBlurPopupDemoTests.swift */,
+				499F92461CDD9F7100AEC726 /* Info.plist */,
+			);
+			path = JKBlurPopupDemoTests;
+			sourceTree = "<group>";
+		};
+		499F924E1CDD9F7100AEC726 /* JKBlurPopupDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				499F924F1CDD9F7100AEC726 /* JKBlurPopupDemoUITests.swift */,
+				499F92511CDD9F7100AEC726 /* Info.plist */,
+			);
+			path = JKBlurPopupDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		499F922B1CDD9F7000AEC726 /* JKBlurPopupDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 499F92541CDD9F7100AEC726 /* Build configuration list for PBXNativeTarget "JKBlurPopupDemo" */;
+			buildPhases = (
+				499F92281CDD9F7000AEC726 /* Sources */,
+				499F92291CDD9F7000AEC726 /* Frameworks */,
+				499F922A1CDD9F7000AEC726 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKBlurPopupDemo;
+			productName = JKBlurPopupDemo;
+			productReference = 499F922C1CDD9F7000AEC726 /* JKBlurPopupDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		499F923F1CDD9F7000AEC726 /* JKBlurPopupDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 499F92571CDD9F7100AEC726 /* Build configuration list for PBXNativeTarget "JKBlurPopupDemoTests" */;
+			buildPhases = (
+				499F923C1CDD9F7000AEC726 /* Sources */,
+				499F923D1CDD9F7000AEC726 /* Frameworks */,
+				499F923E1CDD9F7000AEC726 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				499F92421CDD9F7000AEC726 /* PBXTargetDependency */,
+			);
+			name = JKBlurPopupDemoTests;
+			productName = JKBlurPopupDemoTests;
+			productReference = 499F92401CDD9F7000AEC726 /* JKBlurPopupDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		499F924A1CDD9F7100AEC726 /* JKBlurPopupDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 499F925A1CDD9F7100AEC726 /* Build configuration list for PBXNativeTarget "JKBlurPopupDemoUITests" */;
+			buildPhases = (
+				499F92471CDD9F7100AEC726 /* Sources */,
+				499F92481CDD9F7100AEC726 /* Frameworks */,
+				499F92491CDD9F7100AEC726 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				499F924D1CDD9F7100AEC726 /* PBXTargetDependency */,
+			);
+			name = JKBlurPopupDemoUITests;
+			productName = JKBlurPopupDemoUITests;
+			productReference = 499F924B1CDD9F7100AEC726 /* JKBlurPopupDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		499F92241CDD9F7000AEC726 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Jinkey;
+				TargetAttributes = {
+					499F922B1CDD9F7000AEC726 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 62AC46NYJQ;
+					};
+					499F923F1CDD9F7000AEC726 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 62AC46NYJQ;
+						TestTargetID = 499F922B1CDD9F7000AEC726;
+					};
+					499F924A1CDD9F7100AEC726 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 62AC46NYJQ;
+						TestTargetID = 499F922B1CDD9F7000AEC726;
+					};
+				};
+			};
+			buildConfigurationList = 499F92271CDD9F7000AEC726 /* Build configuration list for PBXProject "JKBlurPopupDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 499F92231CDD9F7000AEC726;
+			productRefGroup = 499F922D1CDD9F7000AEC726 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				499F922B1CDD9F7000AEC726 /* JKBlurPopupDemo */,
+				499F923F1CDD9F7000AEC726 /* JKBlurPopupDemoTests */,
+				499F924A1CDD9F7100AEC726 /* JKBlurPopupDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		499F922A1CDD9F7000AEC726 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499F923A1CDD9F7000AEC726 /* LaunchScreen.storyboard in Resources */,
+				499F92371CDD9F7000AEC726 /* Assets.xcassets in Resources */,
+				499F92351CDD9F7000AEC726 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499F923E1CDD9F7000AEC726 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499F92491CDD9F7100AEC726 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		499F92281CDD9F7000AEC726 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499F92321CDD9F7000AEC726 /* ViewController.swift in Sources */,
+				499F92601CDD9FFE00AEC726 /* ExampleJKBlurPopup.swift in Sources */,
+				499F92301CDD9F7000AEC726 /* AppDelegate.swift in Sources */,
+				499F925F1CDD9FFE00AEC726 /* JKBlurPopup.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499F923C1CDD9F7000AEC726 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499F92451CDD9F7100AEC726 /* JKBlurPopupDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		499F92471CDD9F7100AEC726 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499F92501CDD9F7100AEC726 /* JKBlurPopupDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		499F92421CDD9F7000AEC726 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 499F922B1CDD9F7000AEC726 /* JKBlurPopupDemo */;
+			targetProxy = 499F92411CDD9F7000AEC726 /* PBXContainerItemProxy */;
+		};
+		499F924D1CDD9F7100AEC726 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 499F922B1CDD9F7000AEC726 /* JKBlurPopupDemo */;
+			targetProxy = 499F924C1CDD9F7100AEC726 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		499F92331CDD9F7000AEC726 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				499F92341CDD9F7000AEC726 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		499F92381CDD9F7000AEC726 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				499F92391CDD9F7000AEC726 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		499F92521CDD9F7100AEC726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		499F92531CDD9F7100AEC726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		499F92551CDD9F7100AEC726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JKBlurPopupDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinkeyh.JKBlurPopupDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		499F92561CDD9F7100AEC726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JKBlurPopupDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinkeyh.JKBlurPopupDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		499F92581CDD9F7100AEC726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JKBlurPopupDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinkeyh.JKBlurPopupDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKBlurPopupDemo.app/JKBlurPopupDemo";
+			};
+			name = Debug;
+		};
+		499F92591CDD9F7100AEC726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JKBlurPopupDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinkeyh.JKBlurPopupDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKBlurPopupDemo.app/JKBlurPopupDemo";
+			};
+			name = Release;
+		};
+		499F925B1CDD9F7100AEC726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JKBlurPopupDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinkeyh.JKBlurPopupDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JKBlurPopupDemo;
+			};
+			name = Debug;
+		};
+		499F925C1CDD9F7100AEC726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JKBlurPopupDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jinkeyh.JKBlurPopupDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JKBlurPopupDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		499F92271CDD9F7000AEC726 /* Build configuration list for PBXProject "JKBlurPopupDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499F92521CDD9F7100AEC726 /* Debug */,
+				499F92531CDD9F7100AEC726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		499F92541CDD9F7100AEC726 /* Build configuration list for PBXNativeTarget "JKBlurPopupDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499F92551CDD9F7100AEC726 /* Debug */,
+				499F92561CDD9F7100AEC726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		499F92571CDD9F7100AEC726 /* Build configuration list for PBXNativeTarget "JKBlurPopupDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499F92581CDD9F7100AEC726 /* Debug */,
+				499F92591CDD9F7100AEC726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		499F925A1CDD9F7100AEC726 /* Build configuration list for PBXNativeTarget "JKBlurPopupDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				499F925B1CDD9F7100AEC726 /* Debug */,
+				499F925C1CDD9F7100AEC726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 499F92241CDD9F7000AEC726 /* Project object */;
+}
