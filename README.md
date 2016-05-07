@@ -1,6 +1,7 @@
 # JKBlurPopup
 Create a popupview with blur background, using swift! I will add more animation to present the popupview constantly!
 This is how the user interface looks like (from the demo app):
+
 ![](https://raw.githubusercontent.com/Jinkeycode/JKBlurPopup/master/JKBlurPopup.gif "JKBlurPopup.gif")
 
 # Installation
